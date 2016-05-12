@@ -14,6 +14,27 @@ div {
   margin: 0;
 }
 
+div.dockerContainers button.container{
+  background:url(console.png) no-repeat;
+  width: 25px;
+  height: 25px;
+  border: none;
+  cursor:pointer;
+  background-size: 100%;
+}
+div.dockerContainers button.logs{
+  background:url(log.png) no-repeat;
+  width: 25px;
+  height: 25px;
+  border: none;
+  cursor:pointer;
+  background-size: 100%;
+}
+
+div.dockerContainers {
+  font-size: 1.5em;
+}
+
 html {
   background: #fff;
 }
@@ -181,3 +202,11 @@ h1 {
 }
 
 .dark h1, .dark #help { display: none; }
+
+/*.dockerContainers button{*/
+  /*display: none;*/
+/*}*/
+
+/*.dockerContainers:hover button{*/
+  /*display: inline;*/
+/*}*/
