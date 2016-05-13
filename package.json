@@ -16,7 +16,7 @@
   "dependencies": {
     "express": "3.4.4",
     "socket.io": "0.9.16",
-    "pty.js": ">= 0.2.13",
+    "pty.js": ">= 0.3.0",
     "term.js": ">= 0.0.5",
     "tail": ">= 1.1.0"
   },
